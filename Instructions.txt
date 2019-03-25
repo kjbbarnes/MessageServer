@@ -1,0 +1,12 @@
+To setup and use the secure encrypted message system:
+
+NOTE: This system may not work on Windows due to an issue with select.select in the code and Windows not liking it.
+
+Step 1: Open up two terminals
+Step 2: On the first terminal, run 'sudo python server.py [ip] [port]'
+Step 3: On the second terminal, run 'sudo python client.py [ip] [port]'
+Step 4: That's it! Now start sending encrypted messages!
+
+NOTE: For the IP, I would recommend using 127.0.0.1 for testing purposes.
+
+NOTE: This system does allow for up to 10 different connections, easily scalable by modifying the source code 'server.listen(10)'
